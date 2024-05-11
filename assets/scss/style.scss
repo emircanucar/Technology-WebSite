@@ -5,15 +5,15 @@
 }
 
 body {
-  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  background-image: url("/assets/img/background-1.jpg");
   background-position: center;
   background-size: cover 100%;
   background-repeat: no-repeat;
-  height: 100dvh;
 }
 
 .navbar {
-  background-image: linear-gradient(240deg, #ffffff 0%, #ececec 100%);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.447);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
@@ -60,9 +60,9 @@ body {
 
 .start-side {
   border-radius: 8px;
-  padding: 8px 0;
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  overflow: hidden;
   .category-menu {
     height: 100%;
     display: flex;
@@ -70,15 +70,16 @@ body {
     &-item {
       padding: 10px 10px;
       text-decoration: none;
-      color: #000000;
+      color: #ffffff;
       border-bottom: 1px solid #d8d7d7;
+      cursor: pointer;
       &:nth-last-child(1) {
         border: 0;
       }
 
       &:hover {
-        border-right: 5px solid #001e69;
-        background-color: #efefef;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #ffffff;
       }
     }
   }
@@ -89,18 +90,15 @@ body {
   overflow: auto;
   padding: 5px 0;
   height: 72dvh;
-  /* width */
   &::-webkit-scrollbar {
     width: 3px;
     height: 30px;
   }
 
-  /* Track */
   &::-webkit-scrollbar-track {
     background: #ffffff00;
   }
 
-  /* Handle */
   &::-webkit-scrollbar-thumb {
     background: #9f9f9f;
   }
@@ -114,8 +112,8 @@ body {
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
       width: 100%;
       border-radius: 8px;
-
-      background-color: #ffffff;
+      color: #ffffff;
+      background-color: rgba(0, 0, 0, 0.5);
     }
   }
 }
@@ -132,8 +130,6 @@ body {
   &.md {
     width: 220px;
     height: 270px;
-  }
-  &.xl {
   }
 
   &-img {
@@ -167,5 +163,27 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+}
+
+.category-posts {
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .wide-post-card {
+    max-height: 200px;
+    overflow: hidden;
+    &-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    &-content {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      max-height: 100px;
+    }
   }
 }

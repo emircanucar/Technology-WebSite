@@ -5,18 +5,11 @@
 }
 
 body {
-  background-image: url("/assets/img/background-1.jpg");
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   background-position: center;
   background-size: cover 100%;
   background-repeat: no-repeat;
   height: 100dvh;
-}
-
-.sections-wrapper {
-  width: 100%;
-  min-height: 100dvh;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(6px);
 }
 
 .navbar {

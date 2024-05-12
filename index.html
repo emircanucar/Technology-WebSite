@@ -16,7 +16,7 @@
 <body>
     <!-- Header -->
     <header class="sticky-top">
-        <div class="container">
+        <div class="container g-0">
             <nav class="navbar navbar-expand-md p-2 px-4 rounded-3">
                 <a class="navbar-brand" href="index.html">Teknoloji Sitesi</a>
                 <ul class="navbar-nav ms-auto d-none d-md-flex  ">
@@ -30,7 +30,7 @@
                         <a class="nav-link" href="#">İletişim</a>
                     </li>
                 </ul>
-                <span class="navbar-hamburger d-flex d-md-none" onclick="addChange()">
+                <span class="navbar-hamburger d-flex d-md-none">
                     <span class="bar-1"></span>
                     <span class="bar-2"></span>
                     <span class="bar-3"></span>
@@ -58,7 +58,7 @@
                 <div class="col-12 col-md-2">
                     <!-- Kategories -->
                     <aside class="start-side">
-                        <div class="category-menu">
+                        <nav class="category-menu">
                             <a href="#" class="category-menu-item">
                                 Güncel
                             </a>
@@ -80,7 +80,7 @@
                             <a href="#" class="category-menu-item">
                                 Programlama
                             </a>
-                        </div>
+                        </nav>
                     </aside>
                 </div>
                 <div class="col-12 col-md-7 mt-2 mt-md-2">
@@ -171,66 +171,68 @@
     </div>
 
     <!-- random posts section -->
-    <section class="p-5">
+    <section class="p-1 p-md-5">
         <div class="text-center fw-bold ">
             <h2 class="py-4">Rastgele kategoriden haberler gelecek</h2>
         </div>
         <div class="container pb-4 ">
-            <div class="row g-4 ">
-                <div class="col-12 col-md-3">
-                    <div class="post-card w-100 ">
-                        <a href="#?">
-                            <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
-                            <div class="post-card-overlay">
-                            </div>
-                            <div class="post-card-content">
-                                teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit.
-                                Dignissimos quam non iure aut!
-                            </div>
-                        </a>
+            <div class="swiper postSlider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="post-card">
+                            <a href="#?">
+                                <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
+                                <div class="post-card-overlay">
+                                </div>
+                                <div class="post-card-content">
+                                    teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Dignissimos quam non iure aut!
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="post-card w-100 ">
-                        <a href="#?">
-                            <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
-                            <div class="post-card-overlay">
-                            </div>
-                            <div class="post-card-content">
-                                teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit.
-                                Dignissimos quam non iure aut!
-                            </div>
-                        </a>
+                    <div class="swiper-slide">
+                        <div class="post-card">
+                            <a href="#?">
+                                <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
+                                <div class="post-card-overlay">
+                                </div>
+                                <div class="post-card-content">
+                                    teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Dignissimos quam non iure aut!
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="post-card w-100 ">
-                        <a href="#?">
-                            <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
-                            <div class="post-card-overlay">
-                            </div>
-                            <div class="post-card-content">
-                                teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit.
-                                Dignissimos quam non iure aut!
-                            </div>
-                        </a>
+                    <div class="swiper-slide">
+                        <div class="post-card">
+                            <a href="#?">
+                                <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
+                                <div class="post-card-overlay">
+                                </div>
+                                <div class="post-card-content">
+                                    teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Dignissimos quam non iure aut!
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="post-card w-100 ">
-                        <a href="#?">
-                            <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
-                            <div class="post-card-overlay">
-                            </div>
-                            <div class="post-card-content">
-                                teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit.
-                                Dignissimos quam non iure aut!
-                            </div>
-                        </a>
+                    <div class="swiper-slide">
+                        <div class="post-card">
+                            <a href="#?">
+                                <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
+                                <div class="post-card-overlay">
+                                </div>
+                                <div class="post-card-content">
+                                    teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Dignissimos quam non iure aut!
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -244,15 +246,24 @@
                 <a class="text-center my-4 fs-3 d-block ">Kategori 1</a>
                 <a href="#">
                     <div class="wide-post-card">
-                        <div class="row g-0 ">
-                            <div class="col-12 col-md-4 ms-auto ">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-4 ms-md-auto  ">
                                 <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
                             </div>
-                            <div class="col-12 col-md-5 me-auto bg-white p-4 ">
+                            <div class="col-12 col-md-4 me-md-auto bg-white p-4 ">
                                 <h3 class="wide-post-card-title">
                                     Haber Başlığı
                                 </h3>
                                 <p class="wide-post-card-content">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
+                                    laborum
+                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
+                                    ipsum
+                                    sint
+                                    neque cumque dolore. Labore!
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
+                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
+                                    minus! Quas corporis quae rerum facilis maxime!
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
                                     laborum
                                     obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
@@ -270,8 +281,11 @@
                 <br>
                 <a href="#">
                     <div class="wide-post-card">
-                        <div class="row g-0 ">
-                            <div class="col-12 col-md-5 ms-auto bg-white   p-4 ">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-4 ms-md-auto  ">
+                                <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
+                            </div>
+                            <div class="col-12 col-md-4 me-md-auto bg-white p-4 ">
                                 <h3 class="wide-post-card-title">
                                     Haber Başlığı
                                 </h3>
@@ -285,35 +299,43 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
                                     eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
                                     minus! Quas corporis quae rerum facilis maxime!
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
+                                    laborum
+                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
+                                    ipsum
+                                    sint
+                                    neque cumque dolore. Labore!
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
+                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
+                                    minus! Quas corporis quae rerum facilis maxime!
                                 </p>
                             </div>
-                            <div class="col-12 col-md-4 me-auto ">
-                                <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
-                            </div>
-
                         </div>
                     </div>
                 </a>
             </div>
-        </div>
-    </section>
-
-    <!-- Category post section 1 -->
-    <section>
-        <div class="container pb-5 pt-2">
             <div class="category-posts">
-                <a class="text-center my-4 fs-3 d-block  ">Kategori 2</a>
+                <a class="text-center my-4 fs-3 d-block ">Kategori 2</a>
                 <a href="#">
                     <div class="wide-post-card">
-                        <div class="row g-0 ">
-                            <div class="col-12 col-md-4 ms-auto ">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-4 ms-md-auto  ">
                                 <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
                             </div>
-                            <div class="col-12 col-md-5 me-auto bg-white p-4 ">
+                            <div class="col-12 col-md-4 me-md-auto bg-white p-4 ">
                                 <h3 class="wide-post-card-title">
                                     Haber Başlığı
                                 </h3>
                                 <p class="wide-post-card-content">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
+                                    laborum
+                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
+                                    ipsum
+                                    sint
+                                    neque cumque dolore. Labore!
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
+                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
+                                    minus! Quas corporis quae rerum facilis maxime!
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
                                     laborum
                                     obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
@@ -331,8 +353,11 @@
                 <br>
                 <a href="#">
                     <div class="wide-post-card">
-                        <div class="row g-0 ">
-                            <div class="col-12 col-md-5 ms-auto bg-white  p-4 ">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-4 ms-md-auto  ">
+                                <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
+                            </div>
+                            <div class="col-12 col-md-4 me-md-auto bg-white p-4 ">
                                 <h3 class="wide-post-card-title">
                                     Haber Başlığı
                                 </h3>
@@ -346,12 +371,17 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
                                     eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
                                     minus! Quas corporis quae rerum facilis maxime!
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
+                                    laborum
+                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
+                                    ipsum
+                                    sint
+                                    neque cumque dolore. Labore!
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
+                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
+                                    minus! Quas corporis quae rerum facilis maxime!
                                 </p>
                             </div>
-                            <div class="col-12 col-md-4 me-auto ">
-                                <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
-                            </div>
-
                         </div>
                     </div>
                 </a>
@@ -359,15 +389,19 @@
         </div>
     </section>
 
+
+    <div class="footer-bg">
+
+    </div>
     <!-- footer -->
     <footer>
-        <div class="container">
+        <div class="container mb-5 mb-md-0">
             <div class="row">
                 <div class="col-12">
                     <div class="text-center py-4">
                         &copy;
                         Tüm Hakları Saklıdır.
-                        Tekmoloji Sitesi
+                        Teknoloji Sitesi
                     </div>
                 </div>
             </div>
@@ -375,9 +409,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".heroSlider", {});
-    </script>
+
     <script src="assets/js/main.js"></script>
 </body>
 

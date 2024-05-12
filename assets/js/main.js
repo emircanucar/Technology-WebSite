@@ -4,9 +4,9 @@ function addChange() {
 }
 hamburgerMenu.addEventListener("click", addChange);
 
-var categoryMenu = document.querySelector(".category-menu");
+var navbarMobile = document.querySelector(".navbar-mobile");
 function addShowClass() {
-  categoryMenu.classList.toggle("show");
+  navbarMobile.classList.toggle("show");
 }
 
 hamburgerMenu.addEventListener("click", addShowClass);

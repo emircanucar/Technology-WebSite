@@ -24,11 +24,5 @@ var swiper = new Swiper(".postSlider", {
     768: {
       slidesPerView: 2,
     },
-    992: {
-      slidesPerView: 3,
-    },
-    1200: {
-      slidesPerView: 4,
-    },
   },
 });

@@ -40,7 +40,7 @@
     <!-- Bottom app bar -->
     <nav class="bottom-app-bar d-flex d-md-none">
         <a href="index.html">
-            <i class="bi bi-house-fill"></i>
+            <i class="bi bi-house-fill text-primary"></i>
         </a>
         <a href="index.html">
             <i class="bi bi-file-text-fill"></i>
@@ -50,135 +50,369 @@
         </a>
     </nav>
 
-    <!-- Slider and surroundings -->
-    <div class="p-1 py-md-5  ">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-2 d-none d-md-flex ">
-                    <!-- Kategories -->
-                    <aside class="start-side">
-                        <nav class="category-menu">
-                            <a href="#" class="category-menu-item">
-                                Güncel
-                            </a>
-                            <a href="#" class="category-menu-item">
-                                Yapay Zeka
-                            </a>
-                            <a href="#" class="category-menu-item">
-                                Bilgisayar
-                            </a>
-                            <a href="#" class="category-menu-item">
-                                VR - AR
-                            </a>
-                            <a href="#" class="category-menu-item">
-                                RPA
-                            </a>
-                            <a href="#" class="category-menu-item">
-                                Otomobil
-                            </a>
-                            <a href="#" class="category-menu-item">
-                                Programlama
-                            </a>
-                        </nav>
-                    </aside>
-                </div>
-                <div class="col-12 col-md-7 mt-2 mt-md-2">
+    <main class="container mt-4">
+        <div class="row gx-0 gx-md-3 gx-lg-5 ">
+            <div class="col-2 d-none d-lg-block">
+                <!-- Kategories -->
+                <aside class="start-side">
+                    <nav class="category-menu">
+                        <a href="#" class="category-menu-item">
+                            Güncel
+                        </a>
+                        <a href="#" class="category-menu-item">
+                            Yapay Zeka
+                        </a>
+                        <a href="#" class="category-menu-item">
+                            Bilgisayar
+                        </a>
+                        <a href="#" class="category-menu-item">
+                            VR - AR
+                        </a>
+                        <a href="#" class="category-menu-item">
+                            RPA
+                        </a>
+                        <a href="#" class="category-menu-item">
+                            Otomobil
+                        </a>
+                        <a href="#" class="category-menu-item">
+                            Programlama
+                        </a>
+                    </nav>
+                </aside>
+            </div>
+            <div class="col-12 col-lg-7">
+                <!-- Main Slider -->
+                <section>
+                    <div class="swiper heroSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="hero-slide">
+                                    <a href="#?">
+                                        <img src="assets/img/hero-slider/1.jpg" class="hero-slide-img" alt="">
+                                        <div class="hero-slide-overlay"></div>
+                                        <h3 class="hero-slide-title">
+                                            Haber başlığı gelecek. Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                        </h3>
+                                    </a>
+                                </div>
+                            </div>
 
-                    <!-- Main Slider -->
-                    <section>
-                        <div class="swiper heroSlider">
+                            <div class="swiper-slide">
+                                <div class="hero-slide">
+                                    <a href="#?">
+                                        <img src="assets/img/hero-slider/2.jpg" class="hero-slide-img" alt="">
+                                        <div class="hero-slide-overlay"></div>
+                                        <h3 class="hero-slide-title">
+                                            Haber başlığı gelecek. Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                        </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- random posts section -->
+                <section class="mt-3 mt-md-5">
+                    <div class="text-center fw-bold ">
+                        <h2 class="py-4">Rastgele kategoriden haberler gelecek</h2>
+                    </div>
+                    <div class="container p-0">
+                        <div class="swiper postSlider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="hero-slide">
+                                    <div class="post-card">
                                         <a href="#?">
-                                            <img src="assets/img/hero-slider/1.jpg" class="hero-slide-img" alt="">
-                                            <div class="hero-slide-overlay"></div>
-                                            <h3 class="hero-slide-title">
-                                                Haber başlığı gelecek. Lorem ipsum dolor sit amet consectetur
+                                            <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
+                                            <div class="post-card-overlay">
+                                            </div>
+                                            <div class="post-card-content">
+                                                teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur
                                                 adipisicing
                                                 elit.
-                                            </h3>
+                                                Dignissimos quam non iure aut!
+                                            </div>
                                         </a>
                                     </div>
                                 </div>
-
                                 <div class="swiper-slide">
-                                    <div class="hero-slide">
+                                    <div class="post-card">
                                         <a href="#?">
-                                            <img src="assets/img/hero-slider/2.jpg" class="hero-slide-img" alt="">
-                                            <div class="hero-slide-overlay"></div>
-                                            <h3 class="hero-slide-title">
-                                                Haber başlığı gelecek. Lorem ipsum dolor sit amet consectetur
+                                            <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
+                                            <div class="post-card-overlay">
+                                            </div>
+                                            <div class="post-card-content">
+                                                teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur
                                                 adipisicing
                                                 elit.
-                                            </h3>
+                                                Dignissimos quam non iure aut!
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="post-card">
+                                        <a href="#?">
+                                            <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
+                                            <div class="post-card-overlay">
+                                            </div>
+                                            <div class="post-card-content">
+                                                teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur
+                                                adipisicing
+                                                elit.
+                                                Dignissimos quam non iure aut!
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="post-card">
+                                        <a href="#?">
+                                            <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
+                                            <div class="post-card-overlay">
+                                            </div>
+                                            <div class="post-card-content">
+                                                teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur
+                                                adipisicing
+                                                elit.
+                                                Dignissimos quam non iure aut!
+                                            </div>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </section>
 
-                </div>
-                <div class="col-12 col-md-3">
-                    <aside class="end-side">
-                        <div class="last-posts">
-                            <h2 class="last-posts-title border-bottom p-3">
-                                Son Yazılar
-                            </h2>
-                            <div class="post-card w-100 ">
-                                <a href="#?">
-                                    <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
-                                    <div class="post-card-overlay">
+                <!-- Category post section 1 -->
+                <section class="mt-5">
+                    <div class="container p-0">
+                        <div class="category-posts">
+                            <a class="text-center my-4 fs-3 d-block ">Kategori 1</a>
+
+                            <a href="#">
+                                <div class="wide-post-card">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-6">
+                                            <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
+                                        </div>
+                                        <div class="col-12 col-md-6 bg-white p-4 ">
+                                            <h3 class="wide-post-card-title">
+                                                Haber Başlığı
+                                            </h3>
+                                            <p class="wide-post-card-content">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam
+                                                ducimus
+                                                minus
+                                                laborum
+                                                obcaecati error, aut voluptatum nam id nihil, quas ipsam quod
+                                                molestiae
+                                                maiores
+                                                ipsum
+                                                sint
+                                                neque cumque dolore. Labore!
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                                                velit sint
+                                                eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis
+                                                ut
+                                                tempora aut
+                                                minus! Quas corporis quae rerum facilis maxime!
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam
+                                                ducimus
+                                                minus
+                                                laborum
+                                                obcaecati error, aut voluptatum nam id nihil, quas ipsam quod
+                                                molestiae
+                                                maiores
+                                                ipsum
+                                                sint
+                                                neque cumque dolore. Labore!
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                                                velit sint
+                                                eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis
+                                                ut
+                                                tempora aut
+                                                minus! Quas corporis quae rerum facilis maxime!
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div class="post-card-content">
-                                        teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit.
-                                        Dignissimos quam non iure aut!
+                                </div>
+                            </a>
+
+                            <br>
+
+                            <a href="#">
+                                <div class="wide-post-card">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-6">
+                                            <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
+                                        </div>
+                                        <div class="col-12 col-md-6 bg-white p-4 ">
+                                            <h3 class="wide-post-card-title">
+                                                Haber Başlığı
+                                            </h3>
+                                            <p class="wide-post-card-content">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus
+                                                minus
+                                                laborum
+                                                obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae
+                                                maiores
+                                                ipsum
+                                                sint
+                                                neque cumque dolore. Labore!
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                                                velit sint
+                                                eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut
+                                                tempora aut
+                                                minus! Quas corporis quae rerum facilis maxime!
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus
+                                                minus
+                                                laborum
+                                                obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae
+                                                maiores
+                                                ipsum
+                                                sint
+                                                neque cumque dolore. Labore!
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                                                velit sint
+                                                eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut
+                                                tempora aut
+                                                minus! Quas corporis quae rerum facilis maxime!
+                                            </p>
+                                        </div>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="post-card w-100 ">
-                                <a href="#?">
-                                    <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
-                                    <div class="post-card-overlay">
-                                    </div>
-                                    <div class="post-card-content">
-                                        teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit.
-                                        Dignissimos quam non iure aut!
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="post-card w-100 ">
-                                <a href="#?">
-                                    <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
-                                    <div class="post-card-overlay">
-                                    </div>
-                                    <div class="post-card-content">
-                                        teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit.
-                                        Dignissimos quam non iure aut!
-                                    </div>
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </div>
-                    </aside>
-                </div>
-            </div>
-        </div>
-    </div>
+                        <div class="category-posts">
+                            <a class="text-center my-4 fs-3 d-block ">Kategori 2</a>
+                            <a href="#">
+                                <div class="wide-post-card">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-6">
+                                            <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
+                                        </div>
+                                        <div class="col-12 col-md-6 bg-white p-4 ">
+                                            <h3 class="wide-post-card-title">
+                                                Haber Başlığı
+                                            </h3>
+                                            <p class="wide-post-card-content">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus
+                                                minus
+                                                laborum
+                                                obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae
+                                                maiores
+                                                ipsum
+                                                sint
+                                                neque cumque dolore. Labore!
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                                                velit sint
+                                                eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut
+                                                tempora aut
+                                                minus! Quas corporis quae rerum facilis maxime!
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus
+                                                minus
+                                                laborum
+                                                obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae
+                                                maiores
+                                                ipsum
+                                                sint
+                                                neque cumque dolore. Labore!
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                                                velit sint
+                                                eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut
+                                                tempora aut
+                                                minus! Quas corporis quae rerum facilis maxime!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <br>
+                            <a href="#">
+                                <div class="wide-post-card">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-6">
+                                            <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
+                                        </div>
+                                        <div class="col-12 col-md-6 bg-white p-4 ">
+                                            <h3 class="wide-post-card-title">
+                                                Haber Başlığı
+                                            </h3>
+                                            <p class="wide-post-card-content">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus
+                                                minus
+                                                laborum
+                                                obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae
+                                                maiores
+                                                ipsum
+                                                sint
+                                                neque cumque dolore. Labore!
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                                                velit sint
+                                                eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut
+                                                tempora aut
+                                                minus! Quas corporis quae rerum facilis maxime!
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus
+                                                minus
+                                                laborum
+                                                obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae
+                                                maiores
+                                                ipsum
+                                                sint
+                                                neque cumque dolore. Labore!
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                                                velit sint
+                                                eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut
+                                                tempora aut
+                                                minus! Quas corporis quae rerum facilis maxime!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
 
-    <!-- random posts section -->
-    <section class="p-1 p-md-5">
-        <div class="text-center fw-bold ">
-            <h2 class="py-4">Rastgele kategoriden haberler gelecek</h2>
-        </div>
-        <div class="container pb-4 ">
-            <div class="swiper postSlider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="post-card">
+            </div>
+            <div class="col-12 col-lg-3 mt-5 mt-md-0">
+                <!-- last posts -->
+                <aside class="end-side">
+                    <div class="last-posts">
+                        <h2 class="last-posts-title border-bottom p-3">
+                            Son Yazılar
+                        </h2>
+                        <div class="post-card w-100 ">
+                            <a href="#?">
+                                <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
+                                <div class="post-card-overlay">
+                                </div>
+                                <div class="post-card-content">
+                                    teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Dignissimos quam non iure aut!
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post-card w-100 ">
+                            <a href="#?">
+                                <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
+                                <div class="post-card-overlay">
+                                </div>
+                                <div class="post-card-content">
+                                    teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Dignissimos quam non iure aut!
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post-card w-100 ">
                             <a href="#?">
                                 <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
                                 <div class="post-card-overlay">
@@ -191,205 +425,15 @@
                             </a>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="post-card">
-                            <a href="#?">
-                                <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
-                                <div class="post-card-overlay">
-                                </div>
-                                <div class="post-card-content">
-                                    teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Dignissimos quam non iure aut!
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="post-card">
-                            <a href="#?">
-                                <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
-                                <div class="post-card-overlay">
-                                </div>
-                                <div class="post-card-content">
-                                    teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Dignissimos quam non iure aut!
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="post-card">
-                            <a href="#?">
-                                <img src="assets/img/post/1.jpg" class="post-card-img" alt="">
-                                <div class="post-card-overlay">
-                                </div>
-                                <div class="post-card-content">
-                                    teknoloji haberinin başlığı : Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Dignissimos quam non iure aut!
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                </aside>
             </div>
         </div>
-    </section>
-
-    <!-- Category post section 1 -->
-    <section>
-        <div class="container pb-5 pt-2">
-            <div class="category-posts">
-                <a class="text-center my-4 fs-3 d-block ">Kategori 1</a>
-                <a href="#">
-                    <div class="wide-post-card">
-                        <div class="row g-0">
-                            <div class="col-12 col-md-4 ms-md-auto  ">
-                                <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
-                            </div>
-                            <div class="col-12 col-md-4 me-md-auto bg-white p-4 ">
-                                <h3 class="wide-post-card-title">
-                                    Haber Başlığı
-                                </h3>
-                                <p class="wide-post-card-content">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
-                                    laborum
-                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
-                                    ipsum
-                                    sint
-                                    neque cumque dolore. Labore!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
-                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
-                                    minus! Quas corporis quae rerum facilis maxime!
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
-                                    laborum
-                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
-                                    ipsum
-                                    sint
-                                    neque cumque dolore. Labore!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
-                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
-                                    minus! Quas corporis quae rerum facilis maxime!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <br>
-                <a href="#">
-                    <div class="wide-post-card">
-                        <div class="row g-0">
-                            <div class="col-12 col-md-4 ms-md-auto  ">
-                                <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
-                            </div>
-                            <div class="col-12 col-md-4 me-md-auto bg-white p-4 ">
-                                <h3 class="wide-post-card-title">
-                                    Haber Başlığı
-                                </h3>
-                                <p class="wide-post-card-content">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
-                                    laborum
-                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
-                                    ipsum
-                                    sint
-                                    neque cumque dolore. Labore!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
-                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
-                                    minus! Quas corporis quae rerum facilis maxime!
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
-                                    laborum
-                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
-                                    ipsum
-                                    sint
-                                    neque cumque dolore. Labore!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
-                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
-                                    minus! Quas corporis quae rerum facilis maxime!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="category-posts">
-                <a class="text-center my-4 fs-3 d-block ">Kategori 2</a>
-                <a href="#">
-                    <div class="wide-post-card">
-                        <div class="row g-0">
-                            <div class="col-12 col-md-4 ms-md-auto  ">
-                                <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
-                            </div>
-                            <div class="col-12 col-md-4 me-md-auto bg-white p-4 ">
-                                <h3 class="wide-post-card-title">
-                                    Haber Başlığı
-                                </h3>
-                                <p class="wide-post-card-content">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
-                                    laborum
-                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
-                                    ipsum
-                                    sint
-                                    neque cumque dolore. Labore!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
-                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
-                                    minus! Quas corporis quae rerum facilis maxime!
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
-                                    laborum
-                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
-                                    ipsum
-                                    sint
-                                    neque cumque dolore. Labore!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
-                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
-                                    minus! Quas corporis quae rerum facilis maxime!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <br>
-                <a href="#">
-                    <div class="wide-post-card">
-                        <div class="row g-0">
-                            <div class="col-12 col-md-4 ms-md-auto  ">
-                                <img src="assets/img/post/1.jpg" class="wide-post-card-img" alt="">
-                            </div>
-                            <div class="col-12 col-md-4 me-md-auto bg-white p-4 ">
-                                <h3 class="wide-post-card-title">
-                                    Haber Başlığı
-                                </h3>
-                                <p class="wide-post-card-content">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
-                                    laborum
-                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
-                                    ipsum
-                                    sint
-                                    neque cumque dolore. Labore!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
-                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
-                                    minus! Quas corporis quae rerum facilis maxime!
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ducimus minus
-                                    laborum
-                                    obcaecati error, aut voluptatum nam id nihil, quas ipsam quod molestiae maiores
-                                    ipsum
-                                    sint
-                                    neque cumque dolore. Labore!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit sint
-                                    eveniet cum quibusdam asperiores nihil odio laudantium, ex, facilis ut tempora aut
-                                    minus! Quas corporis quae rerum facilis maxime!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
+    </main>
 
 
-    <div class="footer-bg">
+
+
+    <div class="footer-bg mt-5">
 
     </div>
     <!-- footer -->
